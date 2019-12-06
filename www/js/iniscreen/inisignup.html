@@ -59,31 +59,13 @@
 			<div ng-messages-include="error-list.html"></div>
 			</div>
 
-			<!-- Location -->
-			<label class="item item-input"  ng-class="{ 'has-errors' : iniRegisterForm.city.$invalid, 'no-errors' : iniRegisterForm.city.$valid}">
-				<input type="text" placeholder="Location"  name="city" ng-model="iniRegister.city"  location-suggestion getlocation="regLocation(data)">
+		
 			</label>
 			<div class="error-container" ng-show="iniRegisterForm.city.$error" ng-messages="iniRegisterForm.city.$error">
-			<div ng-messages-include="error-list.html"></div>
-			</div>
-
-			<!-- Address 2 -->
-			<label class="item item-input"  ng-class="{ 'has-errors' : iniRegisterForm.address_2.$invalid, 'no-errors' : iniRegisterForm.address_2.$valid}">
-			<input type="text" placeholder="Address" name="address_2" ng-model="iniRegister.address_2" ng-minlength="3" ng-maxlength="20" maxlength="20"  >
-			</label>
-			<div class="error-container" ng-show="iniRegisterForm.address_2.$error" ng-messages="iniRegisterForm.address_2.$error">
 			<div ng-messages-include="error-list.html"></div>
 			</div>
 
 		
-
-			<!-- State -->
-			<!-- <label class="item item-input item-select"  ng-class="{ 'has-errors' : iniRegisterForm.city.$invalid, 'no-errors' : iniRegisterForm.city.$valid}">
-			<select  ng-model="iniRegister.city" ng-options="Obj.city as Obj.name for Obj in cityData" ></select>
-			</label>
-			<div class="error-container" ng-show="iniRegisterForm.city.$error" ng-messages="iniRegisterForm.city.$error">
-			<div ng-messages-include="error-list.html"></div>
-			</div> -->
 
 
 			<!-- Email -->
