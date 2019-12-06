@@ -6,7 +6,7 @@ angular.module('starter.controllers')
 
 	$scope.loginButton = function(){ $location.path("app/inilogin"); }
 	$scope.signupButton = function(){ $location.path("app/inisignup"); }
-	$scope.skipButton = function(){ $location.path("app/select-location"); }
+	$scope.skipButton = function(){ $location.path("app/dashboard"); }
 	
 
 })
